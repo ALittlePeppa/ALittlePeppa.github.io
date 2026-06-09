@@ -1,0 +1,54 @@
+site_name: Peppa's Blog
+site_url: https://www.alittlepeppa.cn
+
+theme:
+  name: material
+  language: zh
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.superfences
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.snippets
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+
+  - C语言:
+      - 关于宏的一些小知识: C/关于宏的一些小知识.md
+      - C和汇编混写时,查询结构体成员的内存偏移数值: C/C和汇编混写时，查询结构体成员的内存偏移数值.md
+      - 为什么要使用do-while(0): C/为什么要使用do-while(0).md
+      - 使用枚举变量替换宏: C/使用枚举变量替换宏.md
+      - volatile关键字在C中的作用: C/volatile关键字在C中的作用.md
+  
+  - 嵌入式:
+      - GCC编译属性--“裸函数”: Embedded/GCC编译属性--“裸函数”.md
+
+  - ROS:
+      - ROS入门简介: ROS2/ROS入门简介.md
+
+    
