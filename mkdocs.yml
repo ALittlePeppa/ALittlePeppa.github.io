@@ -5,13 +5,27 @@ theme:
   name: material
   language: zh
 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
     - search.highlight
-    - search.share
+    - search.suggest
     - content.code.copy
 
 plugins:
@@ -19,16 +33,12 @@ plugins:
 
 markdown_extensions:
   - admonition
-
   - pymdownx.highlight:
       anchor_linenums: true
-
   - pymdownx.superfences
-
+  - pymdownx.details
   - pymdownx.inlinehilite
-
   - pymdownx.snippets
-
   - pymdownx.tabbed:
       alternate_style: true
 
