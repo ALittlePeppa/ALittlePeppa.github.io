@@ -1,9 +1,14 @@
 site_name: Peppa's Blog
 site_url: https://www.alittlepeppa.cn
 
+repo_url: https://github.com/ALittlePeppa/ALittlePeppa.github.io
+repo_name: ALittlePeppa
+
 theme:
   name: material
   language: zh
+  logo: assets/logo.png
+  favicon: assets/logo1.png
 
   palette:
     - scheme: default
@@ -22,28 +27,39 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.indexes
     - navigation.top
-    - search.highlight
+    - navigation.footer
     - search.suggest
+    - search.highlight
     - content.code.copy
+    - content.tabs.link
 
 plugins:
   - search
+  - blog
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - 首页: index.md
@@ -54,11 +70,14 @@ nav:
       - 为什么要使用do-while(0): C/为什么要使用do-while(0).md
       - 使用枚举变量替换宏: C/使用枚举变量替换宏.md
       - volatile关键字在C中的作用: C/volatile关键字在C中的作用.md
-  
+
   - 嵌入式:
       - GCC编译属性--“裸函数”: Embedded/GCC编译属性--“裸函数”.md
+
+  - 英飞凌:
+      - ASCLIN SPI: Infineon/ASCLIN_SPI_Study.md
 
   - ROS:
       - ROS入门简介: ROS2/ROS入门简介.md
 
-    
+  - 关于作者: about.md

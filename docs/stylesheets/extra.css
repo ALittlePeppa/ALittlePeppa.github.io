@@ -1,0 +1,40 @@
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.hero .md-button {
+  margin: 0.4rem;
+}
+
+.md-typeset .grid.cards {
+  margin-top: 1.2rem;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  border-radius: 0.8rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  border-radius: 50%;
+}
