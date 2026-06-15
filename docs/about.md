@@ -42,43 +42,6 @@
 
 ------
 
-## 🎯 技术方向
-
-### 🚗 汽车电子
-
-重点研究：
-
-- CAN通信
-- Bootloader
-- OTA升级
-- 多核架构开发
-
-------
-
-### 🤖 ROS2机器人开发
-
-学习内容：
-
-- 节点通信机制
-- Topic
-- Service
-- Action
-- Launch系统
-
-------
-
-### ⚡ AURIX平台开发
-
-当前重点研究：
-
-- TC367
-- TC397
-- SOTA机制
-- PFLASH管理
-- 多核调度
-
-------
-
 ## 📚 博客内容
 
 ### 嵌入式
@@ -126,5 +89,25 @@
 > 热爱技术，持续学习，把复杂问题拆简单，把简单事情自动化。
 
 ------
+
+---
+
+## 📈 访客统计
+
+<div class="visit-card" markdown>
+
+- :material-eye: **总访问量**
+
+    <span id="busuanzi_value_site_pv"></span> 次
+
+- :material-account-group: **访客人数**
+
+    <span id="busuanzi_value_site_uv"></span> 人
+
+- :material-file-eye: **当前页面浏览量**
+
+    <span id="busuanzi_value_page_pv"></span> 次
+
+</div>
 
 感谢你的访问 ❤️

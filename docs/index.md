@@ -74,3 +74,13 @@ hide:
     [阅读文章 →](Embedded/GCC编译属性--“裸函数”.md)
 
 </div>
+
+---
+
+<div class="home-stats" markdown>
+
+:material-eye: 总访问量：<span id="busuanzi_value_site_pv"></span> 次  
+:material-account-group: 访客人数：<span id="busuanzi_value_site_uv"></span> 人  
+:material-file-eye: 当前页面浏览量：<span id="busuanzi_value_page_pv"></span> 次
+
+</div>

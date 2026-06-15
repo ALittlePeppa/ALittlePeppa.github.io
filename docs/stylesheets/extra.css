@@ -38,3 +38,39 @@
 .md-header__button.md-logo svg {
   border-radius: 50%;
 }
+
+.home-stats {
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.visit-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.visit-card ul {
+  display: contents;
+}
+
+.visit-card li {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.8rem;
+  background: var(--md-code-bg-color);
+  text-align: center;
+}
+
+.visit-card li p {
+  margin: 0.2rem 0;
+}
+
+.footer-stats {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}

@@ -63,6 +63,16 @@ extra:
     provider: google
     property: G-XQ47GXEJFX
 
+extra_javascript:
+  - https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+copyright: |
+  Copyright &copy; 2026 一只小佩奇（DSP）<br>
+  <span class="footer-stats">
+    总访问量 <span id="busuanzi_value_site_pv"></span> 次 ·
+    访客数 <span id="busuanzi_value_site_uv"></span> 人
+  </span>
+
 extra_css:
   - stylesheets/extra.css
 
